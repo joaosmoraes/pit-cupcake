@@ -24,8 +24,11 @@
     "@angular/router": "^17.3.0",
     "@angular/ssr": "^17.3.9",
     "bcrypt": "^5.1.1",
-    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
     "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.3",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
@@ -44,5 +47,10 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.4.2"
-  }
+  },
+  "description": "- [Descrição](#descrição)\r - [Requisitos](#requisitos)\r - [Diagrama de caso de uso](#diagrama-de-casos-de-uso)\r - [Diagrama do banco de dados](#diagrama-do-banco-de-dados)\r - [Casos de uso](#casos-de-uso)\r - [Layout da aplicação](#layout-da-aplicação)",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

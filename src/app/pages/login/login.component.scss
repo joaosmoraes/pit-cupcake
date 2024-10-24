@@ -1,20 +1,19 @@
-.login-container {
-  display: flex;
-  flex-direction: column;
+.login-container, .register-container {
   max-width: 400px;
-  margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px auto;
   padding: 20px;
-  background-color: #f5f5f5;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #F5E6D3;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #E8B7B7;
 }
 
 h2 {
   text-align: center;
-  color: #333;
+  color: #D2691E;
   margin-bottom: 20px;
+  font-family: 'Lobster', cursive;
+  font-size: 28px;
 }
 
 .form-group {
@@ -30,25 +29,24 @@ label {
 input {
   width: 100%;
   padding: 8px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  font-size: 14px;
+  border: 1px solid #E8B7B7;
+  border-radius: 25px;
+  font-family: 'Roboto', sans-serif;
 }
 
 button {
   width: 100%;
   padding: 10px;
-  background-color: #FF69B4;
+  background-color: #FF6B6B;
   color: white;
   border: none;
-  border-radius: 4px;
-  font-size: 16px;
-  cursor: pointer;
+  border-radius: 25px;
+  font-family: 'Roboto', sans-serif;
   transition: background-color 0.3s;
-}
 
-button:hover {
-  background-color: #FF1493;
+  &:hover {
+    background-color: #FF4F4F;
+  }
 }
 
 p {
@@ -57,8 +55,10 @@ p {
 }
 
 a {
-  color: #007bff;
-  text-decoration: none;
+  color: #D2691E;
+  &:hover {
+    color: #FF6B6B;
+  }
 }
 
 a:hover {
@@ -79,12 +79,9 @@ a:hover {
 }
 
 .modal {
-  background-color: white;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  max-width: 80%;
-  width: 400px;
+  background-color: #F5E6D3;
+  border: 2px solid #E8B7B7;
+  border-radius: 15px;
 }
 
 .modal-content {
@@ -98,13 +95,13 @@ a:hover {
 .modal-content button {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #FF69B4;
+  background-color: #FF6B6B;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 25px;
   cursor: pointer;
 }
 
 .modal-content button:hover {
-  background-color: #FF1493;
+  background-color: #FF4F4F;
 }

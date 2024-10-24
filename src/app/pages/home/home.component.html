@@ -1,14 +1,20 @@
 <div class="card-grid">
   <div class="product-card" *ngFor="let product of products">
-    <img [src]="product.image" class="card-img-top" [alt]="product.name">
+    <img [src]="product.image" [alt]="product.name" class="product-image">
     <div class="card-body">
       <h5 class="card-title">{{ product.name }}</h5>
       <p class="card-text">{{ product.description }}</p>
-      <p class="price">R$ {{ product.price.toFixed(2) }}</p>
-    </div>
-    <div class="card-footer">
-      <button class="btn btn-primary" (click)="addToCart(product)">Adicionar ao Carrinho</button>
-      <button class="btn btn-success" (click)="buyNow(product)">Comprar Agora</button>
+      <p class="price">
+        <i class="fas fa-tag mr-2"></i>R$ {{ product.price.toFixed(2) }}
+      </p>
+      <div class="button-container">
+        <button class="btn btn-primary" (click)="addToCart(product)">
+          <i class="fas fa-shopping-basket mr-2"></i> Adicionar
+        </button>
+        <button class="btn btn-success" (click)="buyNow(product)">
+          <i class="fas fa-cash-register mr-2"></i> Comprar
+        </button>
+      </div>
     </div>
   </div>
 </div>

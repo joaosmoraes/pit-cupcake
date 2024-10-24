@@ -1,125 +1,158 @@
+body {
+  background-color: #F5E6D3;
+  background-image:
+    radial-gradient(#E8B7B7 20%, transparent 20%),
+    radial-gradient(#E8B7B7 20%, transparent 20%);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  font-family: 'Playfair Display', serif;
+}
+
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 1.5rem;
+  gap: 1rem;
   padding: 1rem;
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 .product-card {
   display: flex;
   flex-direction: column;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out;
+  height: 100%;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border: 2px solid #E8B7B7;
 
   &:hover {
     transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
 
   .card-img-top {
     height: 200px;
     object-fit: cover;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-bottom: 4px solid #E8B7B7;
   }
 
   .card-body {
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
     padding: 1rem;
   }
 
   .card-title {
-    font-size: 1.25rem;
-    font-weight: bold;
+    font-size: 1.8rem;
+    color: #D2691E;
+    font-family: 'Lobster', cursive;
     margin-bottom: 0.5rem;
   }
 
   .card-text {
-    font-size: 0.9rem;
-    color: #666;
+    font-size: 1rem;
+    color: #5D4037;
+    margin-bottom: 1rem;
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
   }
 
   .price {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
+    color: #4CAF50;
     font-weight: bold;
-    color: #28a745;
-    margin-top: 0.5rem;
-  }
-
-  .card-footer {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 1rem;
-    background-color: #f8f9fa;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    margin-top: auto;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
   }
 
   .btn {
-    width: 100%;
-    padding: 10px;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    border-radius: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0.75rem 1.5rem;
+    transition: all 0.2s ease;
+    font-family: 'Roboto', sans-serif;
 
     &-primary {
-      background-color: #FF69B4;
-      border-color: #FF69B4;
+      background-color: #FF6B6B;
+      border-color: #FF6B6B;
+      color: #FFFFFF;
 
       &:hover {
-        background-color: #FF1493;
-        border-color: #FF1493;
+        background-color: #FF4F4F;
+        border-color: #FF4F4F;
       }
     }
 
     &-success {
-      background-color: #20B2AA;
-      border-color: #20B2AA;
+      background-color: #4CAF50;
+      border-color: #4CAF50;
+      color: #FFFFFF;
 
       &:hover {
-        background-color: #008B8B;
-        border-color: #008B8B;
+        background-color: #45A049;
+        border-color: #45A049;
       }
     }
+  }
+
+  .product-image {
+    width: 100%;
+    height: 200px; // Ajuste esta altura conforme necessário
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-top: auto;
+  }
+
+  .button-container .btn {
+    flex: 1;
+    white-space: nowrap;
+    padding: 0.5rem;
   }
 }
 
 @media (max-width: 768px) {
   .card-grid {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    padding: 1rem;
   }
 
   .product-card {
     .card-img-top {
-      height: 150px;
+      height: 180px;
     }
 
     .card-title {
-      font-size: 1.1rem;
-    }
-
-    .card-text {
-      font-size: 0.8rem;
+      font-size: 1.6rem;
     }
 
     .price {
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
 
     .btn {
-      font-size: 14px;
-      padding: 8px;
+      font-size: 0.9rem;
+      padding: 0.6rem 1.2rem;
     }
+  }
+}
 
-    .card-footer {
-      gap: 8px;
-    }
+@media (max-width: 576px) {
+  .button-container {
+    flex-direction: column;
   }
 }
