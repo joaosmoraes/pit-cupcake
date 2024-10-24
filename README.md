@@ -1,4 +1,4 @@
-# Projeto integrador de software II (Paixão CakeShop)
+# Projeto integrador de software II (Sweet Cake Store)
 
 ## Índice
 
@@ -14,7 +14,7 @@
 
 ## Descrição
 
-A aplicação a ser desenvolvida deve permitir que pessoas comprem cupcakes de maneira mais fácil, além de facilitar os responsáveis pela empresa.
+A aplicação Sweet Cake Store é um e-commerce de cupcakes. Oferecendo a praticidade de comprar deliciosos cupcakes online.
 
 ## Tecnologias Utilizadas
 

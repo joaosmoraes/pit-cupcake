@@ -1,37 +1,66 @@
-[
-  {
-    "id": 1,
-    "name": "CupCake de Chocolate",
-    "price": 4.99,
-    "description": "Delicioso cupcake de chocolate com cobertura suave e decorado com chocolate ralado.",
-    "image": "https://example.com/cupcake-chocolate.jpg"
-  },
-  {
-    "id": 2,
-    "name": "CupCake de Baunilha",
-    "price": 3.99,
-    "description": "Cupcake refrescante com cobertura de baunilha e decorado com confeitos de baunilha.",
-    "image": "https://example.com/cupcake-vanilla.jpg"
-  },
-  {
-    "id": 3,
-    "name": "CupCake de Chocolate Branco",
-    "price": 4.50,
-    "description": "Suave cupcake de chocolate branco com cobertura cremosa e raspas de chocolate branco.",
-    "image": "https://example.com/cupcake-white-chocolate.jpg"
-  },
-  {
-    "id": 4,
-    "name": "CupCake de Morango",
-    "price": 4.25,
-    "description": "Cupcake saboroso de morango com cobertura de creme de morango e decorado com uma fatia de morango fresco.",
-    "image": "https://example.com/cupcake-strawberry.jpg"
-  },
-  {
-    "id": 5,
-    "name": "CupCake de Coco",
-    "price": 4.00,
-    "description": "Delicioso cupcake de coco com cobertura de creme de coco e flocos de coco torrado.",
-    "image": "https://example.com/cupcake-coconut.jpg"
-  }
+
+  [
+    {
+      "id": 1,
+      "name": "Cupcake de Café",
+      "description": "Sabor intenso de café, perfeito para amantes.",
+      "price": 5.99,
+      "image": "https://example.com/cupcake-cafe.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Cupcake de Brigadeiro",
+      "description": "Doçura clássica do brigadeiro, coberto com granulado.",
+      "price": 6.49,
+      "image": "https://example.com/cupcake-brigadeiro.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Cupcake de Coco",
+      "description": "Bolo macio com o toque tropical do coco.",
+      "price": 5.99,
+      "image": "https://example.com/cupcake-coco.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Cupcake de Goiabada",
+      "description": "Massa leve com o sabor autêntico da goiabada.",
+      "price": 6.29,
+      "image": "https://example.com/cupcake-goiabada.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Cupcake de Laranja",
+      "description": "Frescor cítrico em cada mordida, aroma natural.",
+      "price": 5.99,
+      "image": "https://example.com/cupcake-laranja.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Cupcake de Leite Ninho",
+      "description": "Recheio cremoso, sabor suave e doce.",
+      "price": 6.79,
+      "image": "https://example.com/cupcake-leite-ninho.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Cupcake de Leite Ninho com Nutella",
+      "description": "Combinação de leite ninho e Nutella, irresistível.",
+      "price": 7.49,
+      "image": "https://example.com/cupcake-leite-ninho-nutella.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Cupcake de Nozes",
+      "description": "Toque crocante com sabor levemente caramelizado.",
+      "price": 6.99,
+      "image": "https://example.com/cupcake-nozes.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Cupcake Red Velvet",
+      "description": "Massa aveludada e cobertura de cream cheese deliciosa.",
+      "price": 7.29,
+      "image": "https://example.com/cupcake-red-velvet.jpg"
+    }
 ]
