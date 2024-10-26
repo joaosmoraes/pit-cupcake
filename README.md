@@ -37,7 +37,7 @@ A aplicação Sweet Cake Store é um e-commerce de cupcakes. Oferecendo a pratic
 1. Clone o repositório:
    
    gh repo clone https://github.com/joaosmoraes/pit-cupcake.git
-   cd projeto-integrador
+   
    
 
 2. Instale as dependências do backend:
